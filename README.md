@@ -25,14 +25,20 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+        React is a UI library that is used in various forms to create complex, rich user interfaces. React is a declarative javascript library meaning it does what you tell it to do, rather than describing control flow. 
 
 - [ ] What does it mean to _think_ in react?
+        I'm a little confused at this question.
 
 - [ ] Describe state.
+        A state is an observable object and its used to hold data that might change over time. It also controls the behavior of a component after each change. 
 
 - [ ] Describe props.
+        Think of props as what makes up your component. Ths can be data from an array, attributes, or any kind you want associated to an element.
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+        A side effect is anything that affects something outside the scope of the function being executed.
+        React useEffect Hook allows you to manage side effects with no need of class components, and to extract and reuse the logic of an effect from a component. Some examples of “side effects” or just “effects” can be data fetching, manually changing the DOM or setting up a subscription.
 
 ## Project Set Up
 
